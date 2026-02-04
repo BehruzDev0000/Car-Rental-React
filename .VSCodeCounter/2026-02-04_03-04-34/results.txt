@@ -1,0 +1,70 @@
+Date : 2026-02-04 03:04:34
+Directory : d:\Najot Talim\6-oy\imtihon\src
+Total : 28 files,  1232 codes, 0 comments, 156 blanks, all 1388 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |         25 |      1,057 |          0 |        142 |      1,199 |
+| PostCSS        |          3 |        175 |          0 |         14 |        189 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                 |         28 |      1,232 |          0 |        156 |      1,388 |
+| . (Files)                                                         |          3 |        106 |          0 |         10 |        116 |
+| assets                                                            |          2 |        352 |          0 |         64 |        416 |
+| assets\icons                                                      |          1 |        332 |          0 |         63 |        395 |
+| assets\images                                                     |          1 |         20 |          0 |          1 |         21 |
+| components                                                        |         17 |        399 |          0 |         61 |        460 |
+| components\brands                                                 |          2 |         20 |          0 |          3 |         23 |
+| components\cars                                                   |          4 |         88 |          0 |         22 |        110 |
+| components\header                                                 |          5 |         53 |          0 |          9 |         62 |
+| components\hero                                                   |          3 |        123 |          0 |         15 |        138 |
+| components\review                                                 |          3 |        115 |          0 |         12 |        127 |
+| context                                                           |          1 |        247 |          0 |          7 |        254 |
+| modules                                                           |          5 |        128 |          0 |         14 |        142 |
+| modules\brands                                                    |          1 |         14 |          0 |          2 |         16 |
+| modules\cars                                                      |          1 |         27 |          0 |          3 |         30 |
+| modules\header                                                    |          1 |         34 |          0 |          3 |         37 |
+| modules\hero                                                      |          1 |         18 |          0 |          2 |         20 |
+| modules\review                                                    |          1 |         35 |          0 |          4 |         39 |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                          | language       | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| d:\Najot Talim\6-oy\imtihon\src\App.jsx                           | JavaScript JSX |         19 |          0 |          3 |         22 |
+| d:\Najot Talim\6-oy\imtihon\src\assets\icons\index.jsx            | JavaScript JSX |        332 |          0 |         63 |        395 |
+| d:\Najot Talim\6-oy\imtihon\src\assets\images\index.jsx           | JavaScript JSX |         20 |          0 |          1 |         21 |
+| d:\Najot Talim\6-oy\imtihon\src\components\brands\brandsItem.jsx  | JavaScript JSX |          8 |          0 |          1 |          9 |
+| d:\Najot Talim\6-oy\imtihon\src\components\brands\brandsList.jsx  | JavaScript JSX |         12 |          0 |          2 |         14 |
+| d:\Najot Talim\6-oy\imtihon\src\components\cars\allCars.jsx       | JavaScript JSX |         18 |          0 |          5 |         23 |
+| d:\Najot Talim\6-oy\imtihon\src\components\cars\carItem.jsx       | JavaScript JSX |         33 |          0 |         10 |         43 |
+| d:\Najot Talim\6-oy\imtihon\src\components\cars\categories.jsx    | JavaScript JSX |         33 |          0 |          6 |         39 |
+| d:\Najot Talim\6-oy\imtihon\src\components\cars\index.jsx         | JavaScript JSX |          4 |          0 |          1 |          5 |
+| d:\Najot Talim\6-oy\imtihon\src\components\header\button.jsx      | JavaScript JSX |         12 |          0 |          2 |         14 |
+| d:\Najot Talim\6-oy\imtihon\src\components\header\href.jsx        | JavaScript JSX |          6 |          0 |          3 |          9 |
+| d:\Najot Talim\6-oy\imtihon\src\components\header\index.jsx       | JavaScript JSX |          5 |          0 |          1 |          6 |
+| d:\Najot Talim\6-oy\imtihon\src\components\header\navList.jsx     | JavaScript JSX |         19 |          0 |          1 |         20 |
+| d:\Najot Talim\6-oy\imtihon\src\components\header\navListItem.jsx | JavaScript JSX |         11 |          0 |          2 |         13 |
+| d:\Najot Talim\6-oy\imtihon\src\components\hero\cardItem.jsx      | JavaScript JSX |         19 |          0 |          2 |         21 |
+| d:\Najot Talim\6-oy\imtihon\src\components\hero\cards.jsx         | JavaScript JSX |         27 |          0 |          4 |         31 |
+| d:\Najot Talim\6-oy\imtihon\src\components\hero\style.css         | PostCSS        |         77 |          0 |          9 |         86 |
+| d:\Najot Talim\6-oy\imtihon\src\components\review\reviews.jsx     | JavaScript JSX |         55 |          0 |          6 |         61 |
+| d:\Najot Talim\6-oy\imtihon\src\components\review\reviewsItem.jsx | JavaScript JSX |         37 |          0 |          5 |         42 |
+| d:\Najot Talim\6-oy\imtihon\src\components\review\style.css       | PostCSS        |         23 |          0 |          1 |         24 |
+| d:\Najot Talim\6-oy\imtihon\src\context\Context.jsx               | JavaScript JSX |        247 |          0 |          7 |        254 |
+| d:\Najot Talim\6-oy\imtihon\src\index.css                         | PostCSS        |         75 |          0 |          4 |         79 |
+| d:\Najot Talim\6-oy\imtihon\src\main.jsx                          | JavaScript JSX |         12 |          0 |          3 |         15 |
+| d:\Najot Talim\6-oy\imtihon\src\modules\brands\brands.jsx         | JavaScript JSX |         14 |          0 |          2 |         16 |
+| d:\Najot Talim\6-oy\imtihon\src\modules\cars\cars.jsx             | JavaScript JSX |         27 |          0 |          3 |         30 |
+| d:\Najot Talim\6-oy\imtihon\src\modules\header\header.jsx         | JavaScript JSX |         34 |          0 |          3 |         37 |
+| d:\Najot Talim\6-oy\imtihon\src\modules\hero\hero.jsx             | JavaScript JSX |         18 |          0 |          2 |         20 |
+| d:\Najot Talim\6-oy\imtihon\src\modules\review\review.jsx         | JavaScript JSX |         35 |          0 |          4 |         39 |
+| Total                                                             |                |      1,232 |          0 |        156 |      1,388 |
++-------------------------------------------------------------------+----------------+------------+------------+------------+------------+

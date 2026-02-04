@@ -1,0 +1,79 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/montserrat-v31-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/montserrat-v31-latin-500.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/montserrat-v31-latin-600.woff2') format('woff2'); 
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import "tailwindcss";
+
+
+.containers{
+  width: 1200px;
+  margin:0 auto;
+  padding:0 20px;
+}
+.nav-popup:hover .popup-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-popup:hover .popup-icon {
+  transform: rotate(180deg);
+}
+.instagram-btn{
+      margin-top: 16px;
+    width: 194px;
+    height: 58px;
+    position: relative;
+    display: inline-block;
+    background: white;
+    cursor: pointer;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(230.93% 230.93% at 102.01% 2.03%, #F9ED32 0%, #EE2A7B 36%, #D22A8A 44%, #8B2AB2 60%, #1B2AF0 83%, #002AFF 88%);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+.instagram-btn::before{
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    padding: 1.5px;
+    border-radius: 100px;
+    background: radial-gradient(230.93% 230.93% at 102.01% 2.03%, #F9ED32 0%, #EE2A7B 36%, #D22A8A 44%, #8B2AB2 60%, #1B2AF0 83%, #002AFF 88%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude
+}

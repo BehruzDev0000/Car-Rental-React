@@ -1,0 +1,85 @@
+.swiper {
+  width: 100%;
+  height: 500px;   
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;   
+
+  text-align: center;
+  font-size: 18px;
+}
+.heroSwiper {
+  position: relative;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.heroSwiper .swiper-button-next,
+.heroSwiper .swiper-button-prev {
+
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 40px;   
+  top: auto;   
+  color: #555555;
+  transition: transform 0.2s ease;
+}
+
+.heroSwiper .swiper-button-next {
+  right: 40px;
+}
+
+.heroSwiper .swiper-button-prev {
+  right: 88px;
+  left: auto;
+}
+.heroSwiper .swiper-button-next:hover,
+.heroSwiper .swiper-button-prev:hover {
+  transform: scale(1.05);
+}
+.heroSwiper .swiper-button-next::after,
+.heroSwiper .swiper-button-prev::after {
+  display: none;
+}
+.heroSwiper svg {
+  width: 20px;
+  height: 20px;
+}
+.heroSwiper .swiper-pagination {
+  position: absolute;
+  left: 60px;      
+  bottom: 28px;     
+  width: 58px;      
+  height: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.heroSwiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  margin: 0 !important;
+  border-radius: 100px;
+  background: rgba(82, 82, 82, 0.55); 
+  opacity: 1; 
+  transition: all 0.25s ease;
+}
+
+.heroSwiper .swiper-pagination-bullet-active {
+  width: 30px;  
+  height: 8px;     
+  background: #fff;
+  border-radius: 100px;
+}
+.heroSwiper .swiper-pagination-bullet:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
