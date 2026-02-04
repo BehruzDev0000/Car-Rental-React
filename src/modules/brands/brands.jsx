@@ -1,4 +1,5 @@
-import BrandsList from "../../components/brands/BrandsList"
+import BrandsList from '../../components/brands/brandsList.jsx'
+
 
 const Brands = () => {
   return (
@@ -6,7 +7,7 @@ const Brands = () => {
         <div className="containers">
             <h3 className="font-medium text-[#000000] text-[24px] mb-[34px]">More than 50 brands of cars</h3>
             <marquee  behavior="scrool" direction="left">
-                <BrandsList />
+               <BrandsList/>
             </marquee>
         </div>
     </section>
