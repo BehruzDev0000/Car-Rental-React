@@ -1,6 +1,6 @@
 import { Button, Href } from "../../components/header";
 import { GoogleIcon } from "../../assets/icons";
-import Reviews from "../../components/review/reviews.jsx";
+import Reviews from "../../components/review/Reviews.jsx";
 const Review = () => {
   return (
     <section className="py-[100px] bg-[#F5F5F5]">
