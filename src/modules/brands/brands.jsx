@@ -1,5 +1,4 @@
-import BrandsList from '../../components/brands/brandsList.jsx'
-
+import BrandsList from '../../components/brands/BrandsList.jsx'
 
 const Brands = () => {
   return (
