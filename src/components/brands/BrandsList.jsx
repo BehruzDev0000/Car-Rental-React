@@ -1,6 +1,6 @@
 import  { useContext } from 'react'
 import { Context } from '../../context/Context'
-import BrandsItem from './BrandsItem'
+import BrandsItem from './brandsItem'
 
 const BrandsList = () => {
     const {AllBrands} =useContext(Context)
