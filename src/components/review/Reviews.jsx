@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { Context } from '../../context/Context'
 import { Navigation, Pagination } from 'swiper/modules'
-import ReviewsItem from './ReviewsItem.jsx'
+import ReviewsItem from './reviewsItem.jsx'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { ArrowLeft, ArrowRight } from '../../assets/icons'
 import 'swiper/css';
